@@ -1,0 +1,82 @@
+.Introduction{
+    background-color: rgb(243, 243, 243);
+    background-image: url(img/letter-a-xxl.png);
+    background-size:355px;
+    background-repeat: no-repeat;
+    background-position:left ;
+    
+}
+.About{
+    background-color: rgb(243, 243, 243);
+    background-image: url(img/letter-n-xxl.png);
+    background-size:610px;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    background-position: left;
+    
+}
+.services{
+    background-color: rgb(243, 243, 243);
+    background-image: url(img/letter-i-xxl.png);
+    background-size:610px;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    background-position: left;
+    
+}
+.contact{
+    background-color: rgb(243, 243, 243);
+    background-image: url(img/letter-t-xxl.png);
+    background-size:610px;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    background-position: left;
+    
+}
+.Proflio{
+    background-color: rgb(243, 243, 243);
+    background-image: url(img/letter-j-xxl.png);
+    background-size:450px;
+    background-repeat: no-repeat;
+    background-blend-mode:multiply;
+    background-position: left;
+    
+}
+.cvBtn {
+    background-color: #8b8b8b;
+    border-width: 0;
+    color: #e3e3e3;
+    margin-left: 1px;
+    height: 30px;
+    border-radius: 4PX;
+}
+.cvBtn:hover{
+    background-color: #000;
+}
+.git{
+    width: 30px;
+    background-color: #8b8b8b;
+    color: #e3e3e3;
+    margin-left: 2px;
+    height: 30px;
+    margin-top: -4px;
+    border-radius: 4PX;
+}
+.git:hover{
+    background-color: #000;
+}
+.imgP {
+    height: 230px;
+    border-radius: 8%;
+    box-shadow: 10px;
+    
+    
+ }
+ 
+ .container {
+    width: 100%; /* Set the width of the container to 100% to ensure it matches the width of the image */
+    overflow: hidden; /* This ensures that the image doesn't overflow beyond the container's boundaries */
+ }
+ .cont{
+    width: 430px;
+ }
