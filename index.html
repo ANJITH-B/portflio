@@ -27,44 +27,99 @@
         </symbol>
     </svg>
     <div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center w-100">
-    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="toast-body">
-          this webpage is under maintenance
-          <div class="mt-2 pt-2 border-top">
-            <button type="button" class="btn btn-primary btn-sm">Take a took</button>
-            <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Close</button>
-          </div>
+        <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-body">
+                this webpage is under maintenance
+                <p id="welcome-message"></p>
+
+                <div class="mt-2 pt-2 border-top">
+                    <button type="button" class="btn btn-primary btn-sm">Take a took</button>
+                    <button type="button" class="btn btn-secondary btn-sm" data-bs-dismiss="toast">Close</button>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    
+
 
 
     <div class="container ">
-        <div class="col-md-12 col-lg-12 Introduction mt-5 p-5 pd-0">
+        <div class="col-md-12 col-lg-12 Introduction mt-5 p-5 pd-0 shadow  rounded">
             <div class="home-text">
                 <span>Hello, I'm</span>
                 <h1>Anjith B</h1>
                 <h>MERN stack Developer</h>
                 <p> <br>
-                    
+
                     <br>
                     building web applications with the MongoDB, Express, React, and Node.js <br>
-                     technologies.Now, you're interested in adding UI/UX design skills <br> 
-                     to your toolkit to improve the look and feel of <br>
-                     your applications.<br></p>
+                    technologies.Now, you're interested in adding UI/UX design skills <br>
+                    to your toolkit to improve the look and feel of <br>
+                    your applications.<br>
+                </p>
             </div>
+        </div>
+        <div class="col-md-12 col-lg-12 Proflio mt-4 p-5 pd-0 me- shadow rounded">
+            <h2 class="text-center pb-3 sho"><strong>Pro</strong>flio</h2>
+
+            <div class=" m-md-5 m-lg-62 m-xs-12">
+                <div id="carouselExampleCaptions" class="carousel slide shadow  ">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/1.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>NFC TICKET</h5>
+                                <p>using nfc card, token ex for calculating bus charges and automatically withdraw
+                                    for their wallet.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/2.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="img/3.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+
+
         </div>
         <div class="row g-5 ps-4  ">
             <div class="col-md-12 col-lg-12  ">
                 <div class="">
-                    <div class="row">
-
-                        <div class="row  About pb-lg-5 pb-sm-3 mt-4 ">
-                            <h2 class="text-center pt-4 "><strong>About M</strong>e</h2>
+                    <div class="row ">
+                        <div class="row shadow  rounded About pb-lg-5 pb-sm-3 mt-4 ">
+                            <h2 class="text-center pt-4  "><strong>About M</strong>e</h2>
                             <div class="col-md-5 col-lg-4 ">
-                                <div class="d-flex align-items-center justify-content-center">
-                                    <img src="img/40680.jpg" alt="Camera" class=" imgP ">
+                                <div class="d-flex align-items-center justify-content-center ">
+                                    <img src="img/40680.jpg" alt="Camera" class=" imgP shadow bg-white rounded " style="height: 170px; margin-top: 10px;">
                                 </div>
                             </div>
 
@@ -73,12 +128,12 @@
                                     <p>I'm a self leaner MERN stack developer
                                         Currently searching for opportunities to reproduce my skills
                                         and grow my career Domain MERN stack </p>
-                                    <div class="">
-                                        <a><button class="cvBtn"> Download CV</button> </a>
-                                        <a href="https://www.linkedin.com/in/anjith-b-2ba035241/"><button class="cvBtn">
+                                    <div class="mb-3">
+                                        <a href="https://drive.google.com/file/d/1zzrb9wFTuYpsgMRAheYpi72AZmkE90uI/view?usp=drivesdk"><button class="cvBtn shadow-lg"> Download CV</button> </a>
+                                        <a href="https://www.linkedin.com/in/anjith-b-2ba035241/"><button class="cvBtn shadow">
                                                 in</button> </a>
                                         <a href="https://github.com/ANJITH-B"><img src="img/git.png" alt="..."
-                                                class="git"></a>
+                                                class="git shadow-lg"></a>
                                     </div>
                                 </div>
                             </div>
@@ -86,110 +141,58 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12 col-lg-12 Proflio mt-4 p-5 pd-0 me- ">
-                <h2 class="text-center pb-3 "><strong>Port</strong>folio</h2>
-
-                <div class=" m-md-5 m-lg-62 m-xs-12">
-                    <div id="carouselExampleCaptions" class="carousel slide">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="img/R.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>NFC TICKET</h5>
-                                    <p>using nfc card, token ex for calculating bus charges and automatically withdraw for their wallet.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/R.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
-                                    <p>Some representative placeholder content for the second slide.</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="img/R.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
-                                    <p>Some representative placeholder content for the third slide.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                            data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-
-
-
-            </div>
-            <div class="col-md-12 col-lg-12 services mt-4 p- pd-0 md-5">
-                <div class="container px-4 py-5" id="icon-grid">
+            <div class="col-md-12 col-lg-12 services mt-4 p- pd-0 md-5  shadow  rounded">
+                <div class="container px-4 py-5" id="icon-grid ">
                     <h2 class="pb-2 border-bottom">Services</h2>
 
                     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-                        <div class="col d-flex align-items-start">
+                        <div class="col d-flex align-items-start shadow  rounded m-md-2 pt-3">
                             <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
                                 <use xlink:href="#bootstrap" />
                             </svg>
                             <div>
-                                <h3 class="fw-bold mb-0 fs-4">Web Development</h3>
-                                <p>Paragraph of text beneath the heading to explain the heading.</p>
+                                <h3 class="fw-bold mb-0 fs-4 pb-2 ">Web Development</h3>
+                                <p> Useing MERN stack: Node.js + Express.js for server-side API and MongoDB, React for client-side UI and server communication.</p>
                             </div>
                         </div>
-                        <div class="col d-flex align-items-start">
+                        <div class="col d-flex align-items-start shadow  rounded m-md-2 pt-3">
                             <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
                                 <use xlink:href="#cpu-fill" />
                             </svg>
                             <div>
                                 <h3 class="fw-bold mb-0 fs-4">Web designing </h3>
-                                <p>Paragraph of text beneath the heading to explain the heading.</p>
+                                <p>Lorem ipsum, in graphical and textual context, refers to filler</p>
                             </div>
                         </div>
-                        <div class="col d-flex align-items-start">
+                        <div class="col d-flex align-items-start shadow  rounded m-md-2 pt-3">
                             <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
                                 <use xlink:href="#calendar3" />
                             </svg>
                             <div>
                                 <h3 class="fw-bold mb-0 fs-4">UI/UX Figma</h3>
-                                <p>Paragraph of text beneath the heading to explain the heading.</p>
+                                <p>Lorem ipsum, in graphical and textual context, refers to filler</p>
                             </div>
                         </div>
-                        <div class="col d-flex align-items-start">
+                        <div class="col d-flex align-items-start shadow  rounded m-md-2 pt-3">
                             <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
                                 <use xlink:href="#home" />
                             </svg>
                             <div>
-                                <h3 class="fw-bold mb-0 fs-4">IOT Device</h3>
-                                <p>Paragraph of text beneath the heading to explain the heading.</p>
+                                <h3 class="fw-bold mb-0 fs-4 pb-2">IOT Device</h3>
+                                <p>Implementing an IoT device with an application involves integrating the device into the application's ecosystem to enable communication and functionality.</p>
                             </div>
                         </div>
-                        <div class="col d-flex align-items-start">
+                        <div class="col d-flex align-items-start shadow  rounded m-md-2 pt-3">
                             <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
                                 <use xlink:href="#speedometer2" />
                             </svg>
                             <div>
-                                <h3 class="fw-bold mb-0 fs-4">Editing</h3>
-                                <p>Paragraph of text beneath the heading to explain the heading.</p>
+                                <h3 class="fw-bold mb-0 fs-4 pb-2">Editing</h3>
+                                <p>Designing with Adobe Photoshop and Premiere Pro involves utilizing these powerful tools to create visually appealing graphics and videos.</p>
                             </div>
                         </div>
-                        
-                        
+
+
                     </div>
                 </div>
 
@@ -197,7 +200,7 @@
 
 
             </div>
-            <div class="col-md-12 col-lg-12 contact mt-4 p-5 pd-0 md-5">
+            <div class="col-md-12 col-lg-12 contact mt-4 p-5 pd-0 md-5 shadow  rounded">
                 <h2 class="text-center pt-4 "><strong>C</strong>ontact</h2>
                 <section class="contact" id="contact">
                     <div class="text-center mb-3">
@@ -205,22 +208,24 @@
                         <span>Connect With me</span>
                     </div>
                     <div class="d-flex align-items-center justify-content-center">
-                    <div class="contact-form cont">
-                        
-                        <form id="submit-from">
-                            <div class="form-floating mb-3  ">
-                                <input type="email" class="form-control" id="floatingInput"
-                                    placeholder="name@example.com " required>
-                                <label for="floatingInput">Email address</label>
-                            </div>
-                            <div class="form-floating mb-3">
-                                <input required type="password" class="form-control" id="floatingPassword"
-                                    placeholder="Password">
-                                <label for="floatingPassword">Password</label>
-                            </div>
-                            
-                            <div class="d-flex align-items-center justify-content-center"><button type="submit" value="submit" class="btn btn-secondary btn- sm ">submit</button></div>   
-                        </form></div>
+                        <div class="contact-form cont">
+
+                            <form id="submit-from">
+                                <div class="form-floating mb-3  ">
+                                    <input type="text" class="form-control shadow" id="floatingInput"
+                                        placeholder="name@example.com " required>
+                                    <label for="floatingInput">Name</label>
+                                </div>
+                                <div class="form-floating mb-3">
+                                    <input required type="text" class="form-control shadow" id="floatingPassword"
+                                        placeholder="write your messaage here">
+                                    <label for="floatingPassword">write your messaage here</label>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-center"><button type="submit"
+                                        value="submit" class="btn btn-secondary btn- sm shadow ">submit</button></div>
+                            </form>
+                        </div>
                     </div>
                 </section>
 
@@ -256,7 +261,7 @@
             <div class="col-md-12 col-lg-12 Introduction mt-4 p- pd-0 md-5"></div>
         </div>
 
-
+    </div>
 
 
 
@@ -285,18 +290,19 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
             crossorigin="anonymous"></script>
-            <script>
-                document.addEventListener('DOMContentLoaded', function() {
-                  // Get the toast element
-                  const toastEl = document.querySelector('.toast');
-                  
-                  // Create a new instance of the Bootstrap toast object
-                  const toast = new bootstrap.Toast(toastEl);
-                  
-                  // Show the toast
-                  toast.show();
-                });
-                </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                // Get the toast element
+                const toastEl = document.querySelector('.toast');
+
+                // Create a new instance of the Bootstrap toast object
+                const toast = new bootstrap.Toast(toastEl);
+
+                // Show the toast
+                toast.show();
+            });
+        </script>
+        
 </body>
 
 </html>

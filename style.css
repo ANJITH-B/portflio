@@ -8,7 +8,7 @@
 }
 .About{
     background-color: rgb(243, 243, 243);
-    background-image: url(img/letter-n-xxl.png);
+    
     background-size:610px;
     background-repeat: no-repeat;
     background-blend-mode:multiply;
@@ -17,7 +17,7 @@
 }
 .services{
     background-color: rgb(243, 243, 243);
-    background-image: url(img/letter-i-xxl.png);
+    
     background-size:610px;
     background-repeat: no-repeat;
     background-blend-mode:multiply;
@@ -26,7 +26,7 @@
 }
 .contact{
     background-color: rgb(243, 243, 243);
-    background-image: url(img/letter-t-xxl.png);
+    
     background-size:610px;
     background-repeat: no-repeat;
     background-blend-mode:multiply;
@@ -49,6 +49,7 @@
     margin-left: 1px;
     height: 30px;
     border-radius: 4PX;
+    
 }
 .cvBtn:hover{
     background-color: #000;
